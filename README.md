@@ -19,11 +19,21 @@ Live Version Available in [Here](https://search-clonereact-112233.web.app).
 
 Now when all of this is done, you can run the project.
 
+## Install Dependencies
+If you have npm installed then type:
+### `npm install`
+If you have yarn installed then type:
+### `yarn install`
+
 ## How to start the Project
 
 In the project directory, you can run:
 
+For yarn type:
 ### `yarn start`
+
+For NPM type:
+### `npm run start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
