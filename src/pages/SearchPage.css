@@ -1,0 +1,135 @@
+.searchPage__logo {
+  object-fit: contain;
+  margin-right: 50px;
+  height: 50px;
+}
+
+.searchPage__Header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.searchPage__HeaderBody > .search > .search__input {
+  margin-top: 0;
+  width: unset;
+  margin: unset;
+  max-width: unset;
+}
+
+.searchPage__options {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+
+.searchPage__options a,
+.searchPage__optionsLeft a,
+.searchPage__optionsRight a {
+  text-decoration: none;
+  color: gray;
+}
+
+.searchPage__optionsLeft,
+.searchPage__optionsRight {
+  display: flex;
+}
+
+.searchPage__optionsRight {
+  margin-right: 80px;
+}
+
+.searchPage__option {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.searchPage__option a {
+  margin-right: 5px;
+}
+
+.searchPage__Result {
+  margin: 40px 0;
+}
+
+.searchPage__ResultsCount {
+  font-size: 14px;
+  color: #70757a;
+}
+
+.searchPage__Results {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchPage__ResultTitle {
+  text-decoration: none;
+}
+
+.searchPage__ResultTitle:hover {
+  text-decoration: underline;
+}
+
+.searchPage__ResultTitle > h2 {
+  font-weight: 500;
+}
+
+.searchPage__ResultSnippet {
+  margin-top: 10px;
+}
+
+.searchPage__ResultImage {
+  object-fit: contain;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 599px) {
+  .searchPage__Header {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+  }
+  .searchPage__HeaderBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .searchPage__options {
+    display: none;
+  }
+  .searchPage__Results {
+    margin-left: unset;
+    padding: 0 20px;
+  }
+  .searchPage__ResultsCount {
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .searchPage__ResultTitle > h2 {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  .searchPage__ResultSnippet {
+    font-size: 0.875rem;
+  }
+  .searchPage__Result a {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  .searchPage__Result {
+    margin: 20px 0;
+  }
+}
